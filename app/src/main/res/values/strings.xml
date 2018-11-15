@@ -3,4 +3,8 @@
     <string name="hello_everyone">Hello Everyone!</string>
     <string name="this_is_my_first_app">This is my first app! ☻</string>
     <string name="click_me">Click me</string>
+    <string name="i_hope_you_enjoy">I hope you enjoy!</string>
+    <string name="if_you_wouldn_t_mind_supporting_me_by_subscribing_to_my_youtube_channel_it_s_free">If you wouldn\'t mind supporting me by subscribing to my YouTube channel (It\'s free)</string>
+    <string name="continue_to_app">continue to app</string>
+    <string name="my_youtube">my youtube</string>
 </resources>

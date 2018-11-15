@@ -28,11 +28,10 @@
         app:layout_constraintVertical_bias="0.29" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/youtube"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="buttonOnClick"
-        android:text="@string/click_me"
+        android:text="@string/my_youtube"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -42,9 +41,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I hope you enjoy!"
+        android:text="@string/i_hope_you_enjoy"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -53,11 +51,21 @@
     <TextView
         android:layout_width="203dp"
         android:layout_height="68dp"
-        android:text="If you wouldn't mind supporting me by subscribing to my YouTube channel (It's free)"
+        android:text="@string/if_you_wouldn_t_mind_supporting_me_by_subscribing_to_my_youtube_channel_it_s_free"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.758" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_to_app"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/buttonContinue" />
 </android.support.constraint.ConstraintLayout>
