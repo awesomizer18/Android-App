@@ -1,5 +1,6 @@
 package com.awesomizer18.github.firstapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         setupContinueButton();
+
+        setupYoutubeButton();
     }
 
     private void setupContinueButton() {
@@ -26,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
                 Log.i(TAG, "This is a log message!");
                 Toast.makeText(getApplicationContext(), "Ok", Toast.LENGTH_SHORT)
                         .show();
+
+                Intent startApp = new Intent(MainActivity.this, Start.class);
+                startActivity(startApp)
             }
         });
     }
